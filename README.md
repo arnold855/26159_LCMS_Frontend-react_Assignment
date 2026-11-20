@@ -1,6 +1,6 @@
 # Legal Case Management System - LCMS
 
-A full-stack web application for managing legal cases between lawyers and clients. Built with **React** (frontend) and **Express.js** (backend), with data persisted in local JSON files.
+A Frontend web application for managing legal cases between lawyers and clients. Built with **React** (frontend) with data persisted in local JSON files.
 
 ---
 
@@ -63,13 +63,7 @@ legal-case-management-system/
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/arnold855/26159_LCMS_Frontend-react_Assignment.git
-   cd 26159_LCMS_Frontend-react_Assignment
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    npm install
    ```
@@ -84,25 +78,11 @@ legal-case-management-system/
 
 ---
 
-##  API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/users` | Get all users (optional `?role=lawyer\|client`) |
-| POST | `/api/login` | Log in a user |
-| POST | `/api/register` | Register a new user |
-| GET | `/api/cases` | Get all cases (optional `?lawyerId=` or `?clientId=`) |
-| POST | `/api/cases` | Create a new case |
-| POST | `/api/cases/:id/status` | Update a case status |
-
----
-
 ##  Tech Stack
 
 | Layer | Technology |
 |-------|------------|
 | Frontend | React 18, React Router v6 |
-| Backend | Node.js, Express.js |
 | Data Storage | Local JSON files (`data/`) |
 | Dev Tools | concurrently |
 
